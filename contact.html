@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*
+* multi-line comment
+*/
+p{ line-height: 1.5em;
+font-size:16px;}
+h1, h2, h3, h4{
+    color: black;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 2.5em; }
+h2{ font-size: 2.0em; }
+h3{ font-size: 1.5em; }
+a{
+	color: blue;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #ccc;
+}
+/* you can put your code all in one line like above */
+#page{ margin: 20px; }
+
+/* or on different lines like below */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+/* but try and be as concise as possible */
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+					padding: 27px;
+					background: #f00;
+					color: white;
+					text-decoration: none;
+					border-radius: 17px;
+			}
+			#nav ul li a:hover{
+				background-color: #000;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    padding-bottom: 33px;
+	text-align:center
+}
+}
+	#footer p{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+/* multiple styles seperated by a , */
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+#logo img {
+    height: 100px;
+    float: left;
+}
+
+</style>
+
+<!-- your webpage info goes here -->
+
+    <title>Contact US |How Social Media Helps Dentists be Chosen by New Patients</title>
+	
+	<meta name="author" content="S. Maecley Blar" />
+	<meta name="description" content="If You have any Problem Please Contact Me" />
+
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+</head>
+<body>
+
+<!-- webpage content goes here in the body -->
+
+	<div id="page">
+		<div id="logo">
+			<a href="#" id="logoLink"><img src="logo-1.png" style="height: auto; width: auto;"></a>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>	
+		</div>
+		<div id="content">
+			<h1>Contact Me</h1>
+			<p>If You have any Problem Please Contact Me .</p>
+
+<p>Gender: male</p>
+
+<p>Race: White</p>
+
+<p>Birthday: 20/10/1965 (58 years old)</p>
+
+<p>Street: 2329 Travis Street West Palm Beach,</p>
+
+<p>City, State, Zip:  FL 33410</p>
+
+<p>Telephone: 772-528-2028</p>
+
+<p>Mobile: 772-528-2028</p>
+
+		</div>
+		<div id="footer" font-size: 20fx;>
+			<h3>
+				Webpage made by S. Maecley Blar
+			</h3> 
+		</div>
+	</div>
+</body>
+</html>
